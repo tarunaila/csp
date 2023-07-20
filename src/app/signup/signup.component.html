@@ -1,0 +1,13 @@
+<app-header></app-header>
+<div class="body">
+    <form #myform = "ngForm" (ngSubmit) = "onSubmit(myform)" >
+        <span class="frontcap">Register</span>
+        <input id="email" type="text" name="name" placeholder="enter username" ngModel/>
+        <input id="password" type="text" name="password"  placeholder="enter password" ngModel/>
+        <input type = "submit" value = "Register" class="button">
+        
+        <span id="dontHaveAccount">Already have an account? <a routerLink="/login">Sign in</a></span>
+    </form>
+</div>
+
+

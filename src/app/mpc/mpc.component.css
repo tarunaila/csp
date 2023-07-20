@@ -1,0 +1,93 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.list {
+    padding-top: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+.mpccontainer {
+    height: 88vh;
+    background: rgb(255,194,221);
+    background: radial-gradient(circle, rgba(255,194,221,0.5425534715839461) 0%, rgba(31,117,220,0.6630016508556548) 100%);
+}
+.cards:nth-child(2n) {
+    width: 200px;
+    height: 200px;
+    border: 10px solid antiquewhite;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    color: #0468d7;
+    transition: transform .2s;
+    box-shadow: 10px 10px 8px #888888;
+}
+.cards:nth-child(2n):hover {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #0468d7;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    color: #0468d7;
+    transform: scale(1.25);
+    
+
+    
+
+}
+
+.cards:nth-child(2n-1){
+    width: 200px;
+    height: 200px;
+    border: 10px solid #0468d7;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #0468d7;
+    transition: transform .2s;
+    box-shadow: 10px 10px 8px #888888;
+    
+}
+.cards:nth-child(2n-1):hover{
+    width: 200px;
+    height: 200px;
+    border: 10px solid white;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #0468d7;
+    transform: scale(1.25);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

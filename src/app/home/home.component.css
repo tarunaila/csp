@@ -1,0 +1,31 @@
+
+.body {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    height: 87.7vh;
+    
+}
+
+.body .text {
+    background-color: antiquewhite;
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20vw;
+    padding-top: 30vh;
+}
+#bodyimg {
+    background-color: #0468d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bodyimg img {
+    height: 300px;
+    width: 300px;
+    border-radius: 60%;
+    border: 10px solid white;
+}
+
+
+
